@@ -54,12 +54,26 @@ This function is to ping the bot to see if she is online or not - or to play pin
 ```
 These functions are for people who wanna greet travtools! She is really polite :)
 
-2. Created By
+3. Created By
 
 ```markdown
 ~createdby
 ```
 This function is to find me on discord! I'll like to hear your feedbacks and comments :) You can also join travtools discord for that!
+
+4. Time
+
+```markdown
+~time
+```
+Returns the time in UTC 0.00. (Soon: In future there will be a way to set the time zone for your servers!)
+
+5. Distance
+
+```markdown
+~distance \[Coordinates A] \[Coordinates B] 
+```
+
 
 
 ### Support and Contact
