@@ -100,13 +100,54 @@ NOTE: The distance function will work for merchants and heroes.
 
 NOTE: This function will only work on 801 * 801 maps (the large maps) in some servers the maps are 401 * 401 there will be an update later to allow you to set the map size for travtools in your server.
 
+NOTE: Please input the troop speed after -x not the buildings speed. A 5x server can have 2x troop speed. This detail is announced in server start notification on forums. If you had questions about this please ask me on the discord channel.
+
 For example:
 ```markdown
 ~distance 0|0 0|100 gaul tt -x3 -ts5 -haste1.5 -boot2 -map2
 ```
 
-This function will return the distance between 0|0 and 0|100 (100). It will also return the travel time and return time of Theutates Thunder assuming the troops speed in server is x3, the Tournament Square level is 5, the player has a great haste artifact (1.5x faster troops) and the hero that is with thunders is using a Boots of warrior and Map (tier 2 map)
+This example will return the distance between (0,0) and (0,100) (which is 100). It will also return the travel time and return time of Theutates Thunder assuming the troops speed in server is x3, the Tournament Square level is 5, the player has a great haste artifact (1.5x faster troops) and the hero that is with thunders is using a Boots of warrior and Map (tier 2 map)
 
+6. Info
+
+This function is a basic search function. It can give you random information about buildings/troops/artifacts/regions and tribes. There is a specific function for each as well!
+
+```markdown
+~info [Search]
+~info [Tribe name (Optional)] [Troop Name]
+```
+
+NOTE: You can't input server speed with info function.
+NOTE: You can't see level specific details about buildings using info function. for that use the Building function.
+
+8. Troop
+
+This function can give you a basic knowledge about troops and their train time/cost.
+
+```markdown
+~troop [Tribe name (Optional)] [Troop Name] -x[Server Speed]
+
+All tags that are added to the function that start with - are optional.
+```
+
+NOTE: Please input the troop training speed after -x if you want the train time to be accurate. A 5x server can have 2x troop train speed. This detail is announced in server start notification on forums. If you had questions about this please ask me on the discord channel.
+
+NOTE: Please input the troop speed after -x if you want the troop velocity to be accurate. A 5x server can have 2x troop speed. This detail is announced in server start notification on forums. If you had questions about this please ask me on the discord channel.
+
+**Troops train speed** and **Troop speed** Are not neccesirly equal!
+
+9. Research
+
+This function can be used to see the research requirements for different troops. It also can show the cost and research time of each troops. (Soon: This function will have smithy upgrades as well!)
+
+```markdown
+~research [Tribe name (Optional)] [Troop Name] -x[Server Speed]
+
+All tags that are added to the function that start with - are optional.
+```
+
+NOTE: Please input the research speed after -x if you want the research time to be accurate. A 5x server can have 2x research speed. This detail is announced in server start notification on forums. If you had questions about this please ask me on the discord channel.
 
 ### Support and Contact
 
