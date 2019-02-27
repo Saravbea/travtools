@@ -71,7 +71,7 @@ Returns the time in UTC 0.00. (Soon: In future there will be a way to set the ti
 5. Distance
 
 ```markdown
-~distance \[Coordinates A] \[Coordinates B] 
+~distance [Coordinates A] [Coordinates B] 
 ```
 
 
