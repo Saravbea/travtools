@@ -4,7 +4,7 @@ Tarvtools is a free to use Discord Application for the game Travian! If you're a
 
 ### Installation
 
-To install travtools open the following link if you're a server admin: [Install Link]https://discordapp.com/oauth2/authorize?client_id=417397766931611648&scope=bot&permissions=8
+To install travtools open the following link if you're a server admin: [Link]https://discordapp.com/oauth2/authorize?client_id=417397766931611648&scope=bot&permissions=8
 
 Just choose your server and confirm the captcha and it's done :)
 
