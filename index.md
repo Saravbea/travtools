@@ -198,6 +198,7 @@ This function is useful to detect the slowest troop in an incoming attack. You m
 
 ```markdown
 ~incoming [Time in xx:xx:xx format] [Attacker Tribe] [Coordinates A] [Coordinates B] -x[Server Speed] -ts[TS level (optional)] -haste[Haste Artifact Rate (optional)] -(boot|merc)[Tire (optional)] -spur[Tire (optional)] -(hero|items) -all
+~incoming [Time in xx:xx:xx format] [Attacker Tribe] [Distance] -x[Server Speed] -ts[TS level (optional)] -haste[Haste Artifact Rate (optional)] -(boot|merc)[Tire (optional)] -spur[Tire (optional)] -(hero|items) -all
 
 All tags that are added to the function that start with - are optional. About them pay attention that:
 
