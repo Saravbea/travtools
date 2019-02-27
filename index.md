@@ -40,40 +40,72 @@ Syntax highlighted code block
 
 1. Ping
 
+This function is to ping the bot to see if she is online or not - or to play ping pong with her!
+
 ```markdown
 ~ping
 ```
-This function is to ping the bot to see if she is online or not - or to play ping pong with her!
 
 2. Hi
+
+These functions are for people who wanna greet travtools! She is really polite :)
 
 ```markdown
 ~hi
 ~hello
 ~hoi
 ```
-These functions are for people who wanna greet travtools! She is really polite :)
 
 3. Created By
+
+This function is to find me on discord! I'll like to hear your feedbacks and comments :) You can also join travtools discord for that!
 
 ```markdown
 ~createdby
 ```
-This function is to find me on discord! I'll like to hear your feedbacks and comments :) You can also join travtools discord for that!
 
 4. Time
+
+Returns the time in UTC 0.00. (Soon: In future there will be a way to set the time zone for your servers!)
 
 ```markdown
 ~time
 ```
-Returns the time in UTC 0.00. (Soon: In future there will be a way to set the time zone for your servers!)
 
 5. Distance
 
 ```markdown
-~distance [Coordinates A] [Coordinates B] 
+~distance [Coordinates A] [Coordinates B] [Tribe name (Optional)] [Troop Name (Optional)] -x[Server Speed] -ts[TS level] -haste[Haste Artifact Rate] -(boot|merc)[Tire] -spur[Tire] -pennant[Tire] -standard[Tire] -map[Tire]
+
+All tags that are added to the function that start with - are optional. About them pay attention that:
+
+1. The valid values for server speed is all integers > 0. The valid values for ts option is 1 to 20. The valid values for haste option are 1, 1.5 and 2
+
+2. -boot or -merc will consider a Mercenary/Warrior/Archon boots and will assume the hero is with troops. The valid values for this option are 1,2 or 3 (the tier of the boot)
+
+3. -spur is for Spurs boots and will assume hero is with the troops and is mounted. The valid values for this option are 1,2 or 3 (the tier of the boot)
+
+4. -pennant is for the Pennant and will assume hero is with the troops and that the target location is a village of yours. The valid values for this option are 1,2 or 3 (the tier of the item)
+
+5. -standard is for the Pennant and will assume hero is with the troops and that the target location is a village in your confedracy. The valid values for this option are 1,2 or 3 (the tier of the item)
+
+6. -map is for the Maps and will assume hero is with the troops. The valid values for this option are 1,2 or 3 (the tier of the item)
+
+```
+This function can calculate the distance, travel time for your troops and the return times (if they are sent right away).
+
+Travel time and Return time will be calculated if you input the troop name. If you also input the tribe of the troops the search will be more limited.
+
+NOTE: The distance function will work for merchants and heroes.
+
+NOTE: This function will only work on 801 * 801 maps (the large maps) in some servers the maps are 401 * 401 there will be an update later to allow you to set the map size for travtools in your server.
+
+For example:
+```markdown
+~distance 0|0 0|100 gaul tt -x3 -ts5 -haste1.5 -boot2 -map2
 ```
 
+This function will return the distance between 0|0 and 0|100 (100). It will also return the travel time and return time of Theutates Thunder assuming the troops speed in server is x3, the Tournament Square level is 5, the player has a great haste artifact (1.5x faster troops) and the hero that is with thunders is using a Boots of warrior and Map (tier 2 map)
 
 
 ### Support and Contact
