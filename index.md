@@ -56,6 +56,10 @@ Returns the time in UTC 0.00. (Soon: In future there will be a way to set the ti
 
 ### Distance
 
+This function can calculate the distance, travel time for your troops and the return times (if they are sent right away).
+
+Travel time and Return time will be calculated if you input the troop name. If you also input the tribe of the troops the search will be more limited.
+
 ```markdown
 ~distance [Coordinates A] [Coordinates B] [Tribe name (Optional)] [Troop Name (Optional)] -x[Server Speed] -ts[TS level] -haste[Haste Artifact Rate] -(boot|merc)[Tire] -spur[Tire] -pennant[Tire] -standard[Tire] -map[Tire]
 
@@ -74,9 +78,6 @@ All tags that are added to the function that start with - are optional. About th
 6. -map is for the Maps and will assume hero is with the troops. The valid values for this option are 1,2 or 3 (the tier of the item)
 
 ```
-This function can calculate the distance, travel time for your troops and the return times (if they are sent right away).
-
-Travel time and Return time will be calculated if you input the troop name. If you also input the tribe of the troops the search will be more limited.
 
 NOTE: The distance function will work for merchants and heroes.
 
@@ -138,6 +139,85 @@ All tags that are added to the function that start with - are optional.
 NOTE: Please input the research speed after -x if you want the research time to be accurate. A 5x server can have 2x research speed. This detail is announced in server start notification on forums. If you had questions about this please ask me on the discord channel.
 
 ![img](https://cdn.discordapp.com/attachments/382038627758243841/550329277308993549/research.png)
+
+### Tribe
+
+This function will give basic details about the tribes! (same information that are in ~info function)
+
+```markdown
+~tribe [Tribe name]
+```
+
+### Artifact
+
+This function will give basic details about the artifacts!
+
+```markdown
+~artifact [Artifact name]
+```
+
+~[img](https://cdn.discordapp.com/attachments/382038627758243841/550337149749428224/artifact.png)
+
+### Region
+
+This function will give basic details about the regions!
+
+```markdown
+~region [Region name]
+```
+
+NOTE: all the links are set to ts19 server (will change to ptp x2 when it starts). (Soon: you will be able to set the link url to your server on your own discord server)
+
+~[img](https://cdn.discordapp.com/attachments/382038627758243841/550337879918903316/region.png)
+
+### Building
+
+This function will give basic details about the buildings! If the level is specified, it will return information about that level of the building. You can also specify a period of levels (forexample level 11 to 20)
+
+```markdown
+~building [Building name] -x[Server Speed] -mb[Main Building Level]
+~building [Building name] [Level] -x[Server Speed] -mb[Main Building Level]
+~building [Building name] [Starting Level] [Ending Level] -x[Server Speed] -mb[Main Building Level]
+
+All tags that are added to the function that start with - are optional.
+```
+
+![img](https://cdn.discordapp.com/attachments/382038627758243841/550340057609797652/building2.png)
+
+NOTE: For the period use the first level is also counted. For example in
+```markdown
+~building treasury 11 20
+```
+level 11 is also counted and its returning the total cost and train time of levels 11 to 20.
+
+![img](https://cdn.discordapp.com/attachments/382038627758243841/550339952735682570/building3.png)
+
+### Incoming
+
+This function is useful to detect the slowest troop in an incoming attack. You must use this function as soon as the attack appears on the screen or you see it appearing. This function returns the top 10 matches in troop speed. Also it can detect the enemy TS level.
+
+```markdown
+~incoming [Time in xx:xx:xx format] [Attacker Tribe] [Coordinates A] [Coordinates B] -x[Server Speed] -ts[TS level (optional)] -haste[Haste Artifact Rate (optional)] -(boot|merc)[Tire (optional)] -spur[Tire (optional)] -(hero|items) -all
+
+All tags that are added to the function that start with - are optional. About them pay attention that:
+
+1. All optional values for tags are for more specific search. forexample if you use -ts20 the function will only assume that the attacker has ts level 20. if you don't write the number (if you write -ts) it will search for all ts levels.
+
+2. The valid values for server speed is all integers > 0. The valid values for ts option is 1 to 20. The valid values for haste option are 1, 1.5 and 2
+
+3. -boot or -merc will consider a Mercenary/Warrior/Archon boots and will assume the hero is with troops. The valid values for this option are 1,2 or 3 (the tier of the boot)
+
+4. -spur is for Spurs boots and will assume hero is with the troops and is mounted. The valid values for this option are 1,2 or 3 (the tier of the boot)
+
+5. You can simply use -hero or -items to consider all boot types.
+
+6. You can simply use -all instead of -ts, -haste and -hero. this way the function will search with all ts levels, haste types and hero items.
+
+```
+
+NOTE: Please input the troop speed after -x if you want the travel times to be accurate. A 5x server can have 2x troop speed. This detail is announced in server start notification on forums. If you had questions about this please ask me on the discord channel.
+
+![img](https://cdn.discordapp.com/attachments/382038627758243841/550344627367051275/incoming.png)
 
 ## Support and Contact
 
