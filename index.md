@@ -1,12 +1,14 @@
-## Welcome to GitHub Pages
+## About TravTools!
 
-You can use the [editor on GitHub](https://github.com/Saravbea/travtools/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Tarvtools is a free to use Discord Application for the game Travian! If you're a player of this game, you might now the useful wab pages of Gettertools and Killiroid! Travtools was made with the intention to replace both and to have more useful functions that can be used by alliance leaders and players on their own discord server chat :)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Installation
 
-### Markdown
+To install travtools open the following link if you're a server admin: [Install Link]https://discordapp.com/oauth2/authorize?client_id=417397766931611648&scope=bot&permissions=8
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Just choose your server and confirm the captcha and it's done :)
+
+Reminder that you don't need to give travtools the administrator permissions (you can remove that tick) :)
 
 ```markdown
 Syntax highlighted code block
@@ -26,9 +28,7 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
+### Functions
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Saravbea/travtools/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
