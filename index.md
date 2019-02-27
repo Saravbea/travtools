@@ -219,6 +219,30 @@ NOTE: Please input the troop speed after -x if you want the travel times to be a
 
 ![img](https://cdn.discordapp.com/attachments/382038627758243841/550344627367051275/incoming.png)
 
+### Oasis Resources
+
+This functions calculate the amount of resource that an oasis can regenrate in a certain amount of time (ignoring what people can take from it or the maximum storage)
+
+```markdown
+~oasisres [Oasis Type Tag] [Time in minutes] -x[Server Speed]
+
+All tags that are added to the function that start with - are optional.
+```
+
+The tags for different oasis are:
+
+25l | 25% Lumber
+50l | 50% Lumber
+25c | 25% Clay
+50c | 50% Clay
+25i | 25% Iron
+50i | 50% Iron
+25w | 25% Crop (Wheat)
+50w | 50% Crop
+25l-25w | 25% Lumber-25% Crop
+25c-25w | 25% Clay-25% Crop
+25i-25w | 25% Iron-25% Crop
+
 ## Support and Contact
 
 Travtools has expenses. Plus I need money to be able to work on it properly! become my patreon and support travtools today!
