@@ -2,6 +2,14 @@
 
 Tarvtools is a free to use Discord Application for the game Travian! If you're a player of this game, you might now the useful wab pages of Gettertools and Killiroid! Travtools was made with the intention to replace both and to have more useful functions that can be used by alliance leaders and players on their own discord server chat :)
 
+### Support and Contact
+
+Travtools has expenses. Plus I need money to be able to work on it properly! become my patreon and support travtools today!
+
+**[Become My Patreon](https://www.patreon.com/travtools)**
+
+You can also find Travtools discord channel [here](https://discord.gg/CxKEWtE).
+
 ### Installation
 
 To install travtools open the following link if you're a server admin: [Install Link](https://discordapp.com/oauth2/authorize?client_id=417397766931611648&scope=bot&permissions=8)
@@ -30,8 +38,34 @@ Syntax highlighted code block
 
 ### Functions
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Saravbea/travtools/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+1. Ping
 
-### Support or Contact
+```markdown
+~ping
+```
+This function is to ping the bot to see if she is online or not - or to play ping pong with her!
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+2. Hi
+
+```markdown
+~hi
+~hello
+~hoi
+```
+These functions are for people who wanna greet travtools! She is really polite :)
+
+2. Created By
+
+```markdown
+~createdby
+```
+This function is to find me on discord! I'll like to hear your feedbacks and comments :) You can also join travtools discord for that!
+
+
+### Support and Contact
+
+Travtools has expenses. Plus I need money to be able to work on it properly! become my patreon and support travtools today!
+
+**[Become My Patreon](https://www.patreon.com/travtools)**
+
+You can also find Travtools discord channel [here](https://discord.gg/CxKEWtE).
