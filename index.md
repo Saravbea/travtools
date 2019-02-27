@@ -123,6 +123,8 @@ This function is a basic search function. It can give you random information abo
 NOTE: You can't input server speed with info function.
 NOTE: You can't see level specific details about buildings using info function. for that use the Building function.
 
+![img](https://cdn.discordapp.com/attachments/382038627758243841/550328121963053066/info.png)
+
 ### Troop
 
 This function can give you a basic knowledge about troops and their train time/cost.
@@ -139,6 +141,8 @@ NOTE: Please input the troop speed after -x if you want the troop velocity to be
 
 **Troops train speed** and **Troop speed** Are not neccesirly equal!
 
+![img](https://cdn.discordapp.com/attachments/382038627758243841/550328948379222026/troop.png)
+
 ### Research
 
 This function can be used to see the research requirements for different troops. It also can show the cost and research time of each troops. (Soon: This function will have smithy upgrades as well!)
@@ -150,6 +154,8 @@ All tags that are added to the function that start with - are optional.
 ```
 
 NOTE: Please input the research speed after -x if you want the research time to be accurate. A 5x server can have 2x research speed. This detail is announced in server start notification on forums. If you had questions about this please ask me on the discord channel.
+
+![img](https://cdn.discordapp.com/attachments/382038627758243841/550329277308993549/research.png)
 
 ## Support and Contact
 
