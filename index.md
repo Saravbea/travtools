@@ -109,6 +109,8 @@ For example:
 
 This example will return the distance between (0,0) and (0,100) (which is 100). It will also return the travel time and return time of Theutates Thunder assuming the troops speed in server is x3, the Tournament Square level is 5, the player has a great haste artifact (1.5x faster troops) and the hero that is with thunders is using a Boots of warrior and Map (tier 2 map)
 
+![img](https://cdn.discordapp.com/attachments/382038627758243841/550325836574883862/distance.png)
+
 ### Info
 
 This function is a basic search function. It can give you random information about buildings/troops/artifacts/regions and tribes. There is a specific function for each as well!
