@@ -1,8 +1,8 @@
-## About TravTools!
+# About TravTools!
 
 Tarvtools is a free to use Discord Application for the game Travian! If you're a player of this game, you might now the useful wab pages of Gettertools and Killiroid! Travtools was made with the intention to replace both and to have more useful functions that can be used by alliance leaders and players on their own discord server chat :)
 
-### Support and Contact
+## Support and Contact
 
 Travtools has expenses. Plus I need money to be able to work on it properly! become my patreon and support travtools today!
 
@@ -10,7 +10,7 @@ Travtools has expenses. Plus I need money to be able to work on it properly! bec
 
 You can also find Travtools discord channel [here](https://discord.gg/CxKEWtE).
 
-### Installation
+## Installation
 
 To install travtools open the following link if you're a server admin: [Install Link](https://discordapp.com/oauth2/authorize?client_id=417397766931611648&scope=bot&permissions=8)
 
@@ -36,9 +36,9 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-### Functions
+## Functions
 
-1. Ping
+### Ping
 
 This function is to ping the bot to see if she is online or not - or to play ping pong with her!
 
@@ -46,7 +46,7 @@ This function is to ping the bot to see if she is online or not - or to play pin
 ~ping
 ```
 
-2. Hi
+### Hi
 
 These functions are for people who wanna greet travtools! She is really polite :)
 
@@ -56,7 +56,7 @@ These functions are for people who wanna greet travtools! She is really polite :
 ~hoi
 ```
 
-3. Created By
+### Created By
 
 This function is to find me on discord! I'll like to hear your feedbacks and comments :) You can also join travtools discord for that!
 
@@ -64,7 +64,7 @@ This function is to find me on discord! I'll like to hear your feedbacks and com
 ~createdby
 ```
 
-4. Time
+### Time
 
 Returns the time in UTC 0.00. (Soon: In future there will be a way to set the time zone for your servers!)
 
@@ -72,7 +72,7 @@ Returns the time in UTC 0.00. (Soon: In future there will be a way to set the ti
 ~time
 ```
 
-5. Distance
+### Distance
 
 ```markdown
 ~distance [Coordinates A] [Coordinates B] [Tribe name (Optional)] [Troop Name (Optional)] -x[Server Speed] -ts[TS level] -haste[Haste Artifact Rate] -(boot|merc)[Tire] -spur[Tire] -pennant[Tire] -standard[Tire] -map[Tire]
@@ -109,7 +109,7 @@ For example:
 
 This example will return the distance between (0,0) and (0,100) (which is 100). It will also return the travel time and return time of Theutates Thunder assuming the troops speed in server is x3, the Tournament Square level is 5, the player has a great haste artifact (1.5x faster troops) and the hero that is with thunders is using a Boots of warrior and Map (tier 2 map)
 
-6. Info
+### Info
 
 This function is a basic search function. It can give you random information about buildings/troops/artifacts/regions and tribes. There is a specific function for each as well!
 
@@ -121,7 +121,7 @@ This function is a basic search function. It can give you random information abo
 NOTE: You can't input server speed with info function.
 NOTE: You can't see level specific details about buildings using info function. for that use the Building function.
 
-8. Troop
+### Troop
 
 This function can give you a basic knowledge about troops and their train time/cost.
 
@@ -137,7 +137,7 @@ NOTE: Please input the troop speed after -x if you want the troop velocity to be
 
 **Troops train speed** and **Troop speed** Are not neccesirly equal!
 
-9. Research
+### Research
 
 This function can be used to see the research requirements for different troops. It also can show the cost and research time of each troops. (Soon: This function will have smithy upgrades as well!)
 
@@ -149,7 +149,7 @@ All tags that are added to the function that start with - are optional.
 
 NOTE: Please input the research speed after -x if you want the research time to be accurate. A 5x server can have 2x research speed. This detail is announced in server start notification on forums. If you had questions about this please ask me on the discord channel.
 
-### Support and Contact
+## Support and Contact
 
 Travtools has expenses. Plus I need money to be able to work on it properly! become my patreon and support travtools today!
 
