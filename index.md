@@ -156,7 +156,7 @@ This function will give basic details about the artifacts!
 ~artifact [Artifact name]
 ```
 
-~[img](https://cdn.discordapp.com/attachments/382038627758243841/550337149749428224/artifact.png)
+![img](https://cdn.discordapp.com/attachments/382038627758243841/550337149749428224/artifact.png)
 
 ### Region
 
@@ -168,7 +168,7 @@ This function will give basic details about the regions!
 
 NOTE: all the links are set to ts19 server (will change to ptp x2 when it starts). (Soon: you will be able to set the link url to your server on your own discord server)
 
-~[img](https://cdn.discordapp.com/attachments/382038627758243841/550337879918903316/region.png)
+![img](https://cdn.discordapp.com/attachments/382038627758243841/550337879918903316/region.png)
 
 ### Building
 
