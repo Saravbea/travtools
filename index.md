@@ -1,6 +1,6 @@
 # About TravTools!
 
-Tarvtools is a free to use Discord Application for the game Travian! If you're a player of this game, you might know the useful web pages of Gettertools and Killiroid! Travtools was made with the intention to replace both and to have more useful functions that can be used by alliance leaders and players on their own discord server chat :)
+Travtools is a free to use Discord Application for the game Travian! If you're a player of this game, you might know the useful web pages of Gettertools and Killiroid! Travtools was made with the intention to replace both and to have more useful functions that can be used by alliance leaders and players on their own discord server chat :)
 
 ## Support and Contact
 
